@@ -40,7 +40,7 @@ let run_task_tests task =
           [ Printf.sprintf "../../../test/expected/task1_%d.expected" x ]
       | "task2" ->
           [ Printf.sprintf "../../../test/expected/task2_%d.expected" x ]
-      | _ -> []
+      | _ -> [] 
     in
 
     List.iter
