@@ -20,14 +20,29 @@ let all_possible_throws =
         
 
 
-let rec compute_checkouts (score : int) : checkouts =
+let  compute_checkouts (score : int) : checkouts =
   let all_p_throws = all_possible_throws in 
 
  if score < 0 then []
   else
     match all_p_throws with
     |[] -> []
-    |x::xs ->   []::      compute_checkouts xs
+    |x::xs ->  compute_checkouts score 
 
 
 ;;
+
+
+let rec rec_compute_checkouts score all_possible_throws =
+
+  if score < 0 then []
+  else 
+    match all_possible_throws with
+  |[] ->  
+    if score = 0 then [[]] else []
+  |x::xs -> 
+    let without_throw = rec_compute_checkouts score xs in
+    let with_throw = rec_compute_checkouts ( score - points_of_throws x) xs in
+    let with_throw_added = List.map (fun f -> x::f) with_throw in
+    without_throw @ with_throw_added
+
