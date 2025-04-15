@@ -29,7 +29,7 @@ let  compute_checkouts (score : int) : checkouts =
   else
     match all_p_throws with
     |[] -> []
-    |x::xs ->  compute_checkouts score 
+    |x::xs ->  []
 
 
 ;;
