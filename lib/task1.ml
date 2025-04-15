@@ -15,8 +15,10 @@ let all_possible_throws =
                 let doubles = List.map( fun n -> D n) numbers in
                 let triples = List.map (fun n -> T n) numbers in
                 let bulls = [S 25; D 25] in
-                singles @ doubles @ triples @ bulls
+                 singles @triples @ doubles@ bulls
 ;;
+
+
         
 
 
@@ -33,16 +35,24 @@ let  compute_checkouts (score : int) : checkouts =
 ;;
 
 
-let rec rec_compute_checkouts score all_possible_throws =
+  let rec rec_compute_checkouts score all_possible_throws counter =
 
-  if score < 0 then []
-  else 
-    match all_possible_throws with
-  |[] ->  
-    if score = 0 then [[]] else []
-  |x::xs -> 
-    let without_throw = rec_compute_checkouts score xs in
-    let with_throw = rec_compute_checkouts ( score - points_of_throws x) xs in
-    let with_throw_added = List.map (fun f -> x::f) with_throw in
-    without_throw @ with_throw_added
+    if score < 0 || counter > 3 then []
+    else 
+      match all_possible_throws with
+    |[] ->  
+      if score = 0 then [[]] else []
+    |x::xs -> 
+      let with_throw_added =
+        if score - points_of_throws x = 0 && counter + 1 <= 3 then
+          match x with
+          | D _ -> [[x]]
+          | _ -> []
+        else
+        let with_throw = rec_compute_checkouts (score - points_of_throws x) all_possible_throws (counter + 1) in
+        List.map (fun f -> x::f) with_throw in
+      with_throw_added @ rec_compute_checkouts score xs counter
+
+
+     
 
