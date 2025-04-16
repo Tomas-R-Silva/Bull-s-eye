@@ -20,22 +20,7 @@ let all_possible_throws =
 
 
         
-
-
-let  compute_checkouts (score : int) : checkouts =
-  let all_p_throws = all_possible_throws in 
-
- if score < 0 then []
-  else
-    match all_p_throws with
-    |[] -> []
-    |x::xs ->  []
-
-
-;;
-
-
-  let rec rec_compute_checkouts score remaining_throws  counter =
+let rec rec_compute_checkouts score remaining_throws  counter =
 
     if score < 0 || counter > 3 then []
     else 
@@ -52,6 +37,14 @@ let  compute_checkouts (score : int) : checkouts =
         let tails = rec_compute_checkouts (score - points_of_throws x) all_possible_throws (counter + 1) in
         List.map (fun f -> x::f) tails in
       with_throw_added @ rec_compute_checkouts score xs counter
+
+let  compute_checkouts (score : int) : checkouts =
+  
+rec_compute_checkouts score all_possible_throws 0
+
+;;
+
+
 
 
      
