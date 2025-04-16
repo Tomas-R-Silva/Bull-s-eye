@@ -35,7 +35,7 @@ let  compute_checkouts (score : int) : checkouts =
 ;;
 
 
-  let rec rec_compute_checkouts score all_possible_throws counter =
+  let rec rec_compute_checkouts score  counter =
 
     if score < 0 || counter > 3 then []
     else 
