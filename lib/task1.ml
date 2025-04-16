@@ -49,8 +49,8 @@ let  compute_checkouts (score : int) : checkouts =
           | D _ -> [[x]]
           | _ -> []
         else
-        let with_throw = rec_compute_checkouts (score - points_of_throws x) all_possible_throws (counter + 1) in
-        List.map (fun f -> x::f) with_throw in
+        let tails = rec_compute_checkouts (score - points_of_throws x) all_possible_throws (counter + 1) in
+        List.map (fun f -> x::f) tails in
       with_throw_added @ rec_compute_checkouts score xs counter
 
 
