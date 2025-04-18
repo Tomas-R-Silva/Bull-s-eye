@@ -44,22 +44,5 @@ let compute_checkouts (score : int) : checkouts =
   rec_compute_checkouts score all_possible_throws 0;;
 
 
-
-
-(* feito pelo chat gpt só para testar umas coisas*)
-  let print_checkouts (checkouts : checkouts) =
-    let string_of_throw = function
-      | S n -> Printf.sprintf "S%d" n
-      | D n -> Printf.sprintf "D%d" n
-      | T n -> Printf.sprintf "T%d" n
-    in
-    List.iter
-      (fun checkout ->
-        let line =
-          List.map string_of_throw checkout
-          |> String.concat " "
-        in
-        Printf.printf "%s\n" line)
-      checkouts;;
      
 
