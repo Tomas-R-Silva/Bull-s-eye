@@ -27,7 +27,7 @@ let arePermutations l1 l2 =     (* vai ver se l1 e l2 são permutações um do o
   List.sort compare l1 = List.sort compare l2;;
 
 
-let rec eliminate_repetition list =   (*Recebe a mesma lista de listas da task 1 mas elimina as permutações*)
+let rec eliminate_permutation list =   (*Recebe a mesma lista de listas da task 1 mas elimina as permutações*)
   match list with
   | [] -> []
   | x::xs ->      
@@ -36,9 +36,9 @@ let rec eliminate_repetition list =   (*Recebe a mesma lista de listas da task 1
       arePermutations x y && 
       is_D_Last_Same x y
       ) xs then
-        eliminate_repetition xs
+        eliminate_permutation xs
     else 
-      x :: eliminate_repetition xs
+      x :: eliminate_permutation xs
   ;;
 
 
@@ -64,4 +64,4 @@ let rec rec_compute_checkouts score remaining_throws  counter =
 
           
 let compute_checkouts (score : int) : checkouts =
-  eliminate_repetition (rec_compute_checkouts score all_possible_throws 0);;
+  eliminate_permutation (rec_compute_checkouts score all_possible_throws 0);;
