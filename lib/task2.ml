@@ -18,31 +18,50 @@ let all_possible_throws =
 ;;
 
 
-        
-let rec rec_compute_checkouts score remaining_throws counter =
-  if score < 0 || counter > 3 then []
-  else
-    match remaining_throws with
-    | [] ->
-        if score = 0 then [[]] else []
-    | x :: xs ->
-        let with_throw_added =
-          if score - points_of_throws x = 0 && counter + 1 <= 3 then
-            match x with
-            | D _ -> [[x]]
-            | _ -> []
-          else
-            let next_throws =
-              match x with 
-              | D _ -> all_possible_throws
-              | _ -> remaining_throws
-            in
-            let tails = rec_compute_checkouts (score - points_of_throws x) next_throws (counter + 1) in
-            List.map (fun f -> x :: f) tails
-        in
-        with_throw_added @ rec_compute_checkouts score xs counter;;
+let is_D_Last_Same x y =                   (* Recebe um conjunto de throws, retorna true se tiver o mesmo D final*)
+  match List.rev x , List.rev y with
+  | D x::_ , D y::_ -> x = y
+  | _ , _ -> false
+
+let arePermutations l1 l2 =     (* vai ver se l1 e l2 são permutações um do outro, usei o chat gpt para obter este método*)
+  List.sort compare l1 = List.sort compare l2;;
+
+
+let rec eliminate_repetition list =   (*Recebe a mesma lista de listas da task 1 mas elimina as permutações*)
+  match list with
+  | [] -> []
+  | x::xs ->      
+    if List.exists ( fun y -> 
+      List.length x = List.length y &&
+      arePermutations x y && 
+      is_D_Last_Same x y
+      ) xs then
+        eliminate_repetition xs
+    else 
+      x :: eliminate_repetition xs
+  ;;
 
 
 
+let rec rec_compute_checkouts score remaining_throws  counter =
+
+    if score < 0 || counter > 3 then []
+    else 
+      match remaining_throws with
+    |[] ->  
+      if score = 0 then [[]] else []
+    |x::xs -> 
+      let with_throw_added =
+        if score - points_of_throws x = 0 && counter + 1 <= 3 then
+          match x with
+          | D _ -> [[x]]
+          | _ -> []
+        else
+        let tails = rec_compute_checkouts (score - points_of_throws x) all_possible_throws (counter + 1) in
+        List.map (fun f -> x::f) tails in
+      with_throw_added @ rec_compute_checkouts score xs counter;;
+
+
+          
 let compute_checkouts (score : int) : checkouts =
-  rec_compute_checkouts score all_possible_throws 0;;
+  eliminate_repetition (rec_compute_checkouts score all_possible_throws 0);;
