@@ -1,5 +1,7 @@
 open Types
 
+(*Feito por Tomás Ribeiro da Silva nº68644*)
+
 let points_of_throws t =                     (* dependendo se é um S D ou T duplica triplica ou mantém igual*)
   match t with
   | S x -> x          
