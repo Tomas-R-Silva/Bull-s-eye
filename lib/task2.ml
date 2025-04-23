@@ -1,6 +1,6 @@
 open Types
 
-(*Feito por Tomás Ribeiro da Silva nº68644*)
+
 
 let points_of_throws t =                     (* dependendo se é um S D ou T duplica triplica ou mantém igual*)
   match t with
@@ -44,7 +44,8 @@ let rec eliminate_permutation list =   (*Recebe a mesma lista de listas da task 
   ;;
 
 
-
+(*cria a lista com todas as combinações possíveis de throws com o score indicado que têm até 3 de lenght
+Requires : [score > 0, counter >= 0]*)
 let rec rec_compute_checkouts score remaining_throws  counter =
 
     if score < 0 || counter > 3 then []
