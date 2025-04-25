@@ -20,7 +20,7 @@ let all_possible_throws =
 ;;
 
 
-let is_D_Last_Same x y =                   (* Recebe um conjunto de throws, retorna true se tiver o mesmo D final*)
+let is_D_Last_Same x y =                   (* Recebe um conjunto de throws, retorna true se tiver o mesmo D final, nunca vai chegar a _, _ -> pois têm sempre que ter D x no final*)
   match List.rev x , List.rev y with
   | D x::_ , D y::_ -> x = y
   | _ , _ -> false
