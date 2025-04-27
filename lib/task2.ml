@@ -1,6 +1,6 @@
 open Types
 
-(* is_D_Last_Same and arePermutations are functions that were created with the assistance of AI tools*)
+(* is_D_Last_Same e arePermutations são funções que foram criadas com assistência de ferramentas de AI*)
 
 let points_of_throws t =                     (* dependendo se é um S D ou T duplica triplica ou mantém igual*)
   match t with
@@ -10,7 +10,7 @@ let points_of_throws t =                     (* dependendo se é um S D ou T dup
 ;;
 
 let all_possible_throws =
-  let numbers = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10;                      (* vai criar a lista com todas as opcoes possiveis de lancamentos como no exemplo das cartas*)
+  let numbers = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10;                      (* vai criar a lista com todas as opcoes possiveis de lancamentos*)
                11; 12; 13; 14; 15; 16; 17; 18; 19; 20] in
                 let singles = List.map( fun n -> S n) numbers in
                 let doubles = List.map( fun n -> D n) numbers in
@@ -44,8 +44,8 @@ let rec eliminate_permutation list =   (*Recebe a mesma lista de listas da task 
   ;;
 
 
-(*cria a lista com todas as combinações possíveis de throws com o score indicado que têm até 3 de lenght
-Requires : [score > 0, counter >= 0]*)
+(*cria a lista com todas as combinações possíveis de throws com o score indicado que têm até 3 de length
+Requires : [score > 0, counter = 0]*)
 let rec rec_compute_checkouts score remaining_throws  counter =
 
     if score < 0 || counter > 3 then []
