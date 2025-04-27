@@ -1,6 +1,6 @@
 open Types
 
-
+(* is_D_Last_Same and arePermutations are functions that were created with the assistance of AI tools*)
 
 let points_of_throws t =                     (* dependendo se é um S D ou T duplica triplica ou mantém igual*)
   match t with
@@ -25,7 +25,7 @@ let is_D_Last_Same x y =                   (* Recebe um conjunto de throws, reto
   | D x::_ , D y::_ -> x = y
   | _ , _ -> false
 
-let arePermutations l1 l2 =     (* vai ver se l1 e l2 são permutações um do outro, usei o chat gpt para obter este método*)
+let arePermutations l1 l2 =     (* vai ver se l1 e l2 são permutações um do outro*)
   List.sort compare l1 = List.sort compare l2;;
 
 
