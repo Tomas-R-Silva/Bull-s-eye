@@ -45,7 +45,7 @@ let rec eliminate_permutation list =   (*Recebe a mesma lista de listas da task 
 
 
 (*cria a lista com todas as combinações possíveis de throws com o score indicado que têm até 3 de length
-Requires : [score > 0, counter = 0]*)
+Requires : [score >= 0, counter >= 0]*)
 let rec rec_compute_checkouts score remaining_throws  counter =
 
     if score < 0 || counter > 3 then []
