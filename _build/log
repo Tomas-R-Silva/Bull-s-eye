@@ -1,0 +1,26 @@
+# dune build -f @runtest_both
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/tomas/.cache/dune/db
+# Workspace root: /home/tomas/bullseye/project-1-darts-problem-bol4t4tu
+# Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/tomas/.opam/lap2025/bin/ocamlc.opt -config > /tmp/dune_aace32_output
+$ (cd _build/default/test && ./test_bullseye.exe -task both)
+> Task argument: both
+> Number of tests: 15
+> ...............
+> Ran: 15 tests in: 0.34 seconds.
+> OK
+> Number of tests: 15
+> ...............
+> Ran: 15 tests in: 0.37 seconds.
+> OK

@@ -1,0 +1,12 @@
+lib: [
+  "_build/install/default/lib/bullseye/META"
+  "_build/install/default/lib/bullseye/dune-package"
+  "_build/install/default/lib/bullseye/opam"
+]
+bin: [
+  "_build/install/default/bin/bullseye"
+]
+doc: [
+  "_build/install/default/doc/bullseye/LICENSE"
+  "_build/install/default/doc/bullseye/README.md"
+]

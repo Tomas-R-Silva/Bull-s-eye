@@ -1,0 +1,214 @@
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Runner: processes
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Chooser: simple
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration suite_name = "test suite for task2"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration cache_filename = "/home/tomas/bullseye/project-1-darts-problem-bol4t4tu/_build/default/test/oUnit-$(suite_name).cache"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration run_gc_full_major = "true"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration display = "true"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration results_style_1_X = "false"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration testdata_dir = "none"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration health_check_interval = "1."
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration verbose = "false"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration chooser = "simple"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration output_html_dir = "none"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration processes_kill_period = "5."
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration runner = "processes"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration shards = "8"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration processes_grace_period = "5."
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration log_encoding = "utf-8"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration output_junit_file = "none"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration ci = "false"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Configuration output_file = "/home/tomas/bullseye/project-1-darts-problem-bol4t4tu/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Using 8 workers maximum.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Starting worker number LAPTOP-TTIILPVC#01.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#01 started.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Starting worker number LAPTOP-TTIILPVC#02.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#02 started.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Starting worker number LAPTOP-TTIILPVC#03.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#03 started.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Starting worker number LAPTOP-TTIILPVC#04.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#04 started.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Starting worker number LAPTOP-TTIILPVC#05.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#05 started.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Starting worker number LAPTOP-TTIILPVC#06.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#06 started.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Starting worker number LAPTOP-TTIILPVC#07.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#07 started.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Starting worker number LAPTOP-TTIILPVC#08.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#08 started.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:7:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#01 I: Start test test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#02 I: Start test test suite for task2:1:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#03 I: Start test test suite for task2:2:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#04 I: Start test test suite for task2:3:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#05 I: Start test test suite for task2:4:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#06 I: Start test test suite for task2:5:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#07 I: Start test test suite for task2:6:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:7:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Start test test suite for task2:7:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:7:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Test test suite for task2:7:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:7:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: End test test suite for task2:7:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:7:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:8:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Start test test suite for task2:8:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:8:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Test test suite for task2:8:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:8:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: End test test suite for task2:8:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:8:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:9:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Start test test suite for task2:9:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:9:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Test test suite for task2:9:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:9:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: End test test suite for task2:9:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:9:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:10:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Start test test suite for task2:10:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:10:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Test test suite for task2:10:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:10:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: End test test suite for task2:10:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:10:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:11:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Start test test suite for task2:11:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:11:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Test test suite for task2:11:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:11:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: End test test suite for task2:11:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:11:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:12:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Start test test suite for task2:12:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:12:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Test test suite for task2:12:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:12:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: End test test suite for task2:12:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:12:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:13:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Start test test suite for task2:13:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:13:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Test test suite for task2:13:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:13:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: End test test suite for task2:13:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:13:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 8 tests running : test suite for task2:14:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:14:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Start test test suite for task2:14:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 8 tests running : test suite for task2:14:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:14:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: Test test suite for task2:14:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 8 tests running : test suite for task2:14:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:14:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#08 I: End test test suite for task2:14:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 8 tests running : test suite for task2:14:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 8 tests running: test suite for task2:14:task2, test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 7 tests running : test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 7 tests running: test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 7 tests running : test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 7 tests running: test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#07 I: Test test suite for task2:6:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 7 tests running : test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 7 tests running: test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#07 I: End test test suite for task2:6:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 7 tests running : test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 7 tests running: test suite for task2:6:task2, test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 6 tests running : test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 6 tests running: test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#05 I: Test test suite for task2:4:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 6 tests running : test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 6 tests running: test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#05 I: End test test suite for task2:4:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 6 tests running : test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 6 tests running: test suite for task2:5:task2, test suite for task2:4:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 5 tests running : test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 5 tests running: test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#03 I: Test test suite for task2:2:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 5 tests running : test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 5 tests running: test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#03 I: End test test suite for task2:2:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 5 tests running : test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 5 tests running: test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:2:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 4 tests running : test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 4 tests running: test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#02 I: Test test suite for task2:1:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 4 tests running : test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 4 tests running: test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#02 I: End test test suite for task2:1:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 4 tests running : test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 4 tests running: test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:1:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 3 tests running : test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 3 tests running: test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#04 I: Test test suite for task2:3:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 3 tests running : test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 3 tests running: test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#04 I: End test test suite for task2:3:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 3 tests running : test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 3 tests running: test suite for task2:5:task2, test suite for task2:3:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 2 tests running : test suite for task2:5:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 2 tests running: test suite for task2:5:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#06 I: Test test suite for task2:5:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 2 tests running : test suite for task2:5:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 2 tests running: test suite for task2:5:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#06 I: End test test suite for task2:5:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 2 tests running : test suite for task2:5:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 2 tests running: test suite for task2:5:task2, test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 1 tests running : test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 1 tests running: test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#01 I: Test test suite for task2:0:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 1 tests running : test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 1 tests running: test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#01 I: End test test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Still 1 tests running : test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 1 tests running: test suite for task2:0:task2.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: 0 tests running: .
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#08 has ended.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#07 has ended.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#05 has ended.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#03 has ended.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#02 has ended.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#04 has ended.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#06 has ended.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Worker LAPTOP-TTIILPVC#01 has ended.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Used 8 worker during test execution.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Run 1 tests with shard LAPTOP-TTIILPVC#03.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Run 1 tests with shard LAPTOP-TTIILPVC#04.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Run 1 tests with shard LAPTOP-TTIILPVC#07.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Run 1 tests with shard LAPTOP-TTIILPVC#01.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Run 1 tests with shard LAPTOP-TTIILPVC#05.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Run 1 tests with shard LAPTOP-TTIILPVC#06.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Run 1 tests with shard LAPTOP-TTIILPVC#02.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Run 8 tests with shard LAPTOP-TTIILPVC#08.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Check health of shard LAPTOP-TTIILPVC#03, 13 times.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Check health of shard LAPTOP-TTIILPVC#04, 7 times.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Check health of shard LAPTOP-TTIILPVC#07, 19 times.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Check health of shard LAPTOP-TTIILPVC#01, 1 times.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Check health of shard LAPTOP-TTIILPVC#05, 16 times.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Check health of shard LAPTOP-TTIILPVC#06, 4 times.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Check health of shard LAPTOP-TTIILPVC#02, 10 times.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Check health of shard LAPTOP-TTIILPVC#08, 23 times.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: ==============
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Summary:
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:0:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:5:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:3:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:1:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:2:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:4:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:6:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:14:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:13:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:12:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:11:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:10:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:9:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:8:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Test test suite for task2:7:task2 is successful.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Ran: 15 tests in: 0.37 seconds.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Cases: 15.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Tried: 15.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Errors: 0.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Failures: 0.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Skip: 0.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Todo: 0.
+2025-05-28T22:16:56+00:00 LAPTOP-TTIILPVC#00 I: Timeout: 0.
